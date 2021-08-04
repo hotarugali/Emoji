@@ -1,0 +1,23 @@
+{
+    "name": "Arknights_theater",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@Arknights_theater/image/Arknights_theater",
+    "items": [
+        "theater_01.jpg",
+        "theater_02.jpg",
+        "theater_03.jpg",
+        "theater_04.jpg",
+        "theater_05.jpg",
+        "theater_06.jpg",
+        "theater_07.jpg",
+        "theater_08.jpg",
+        "theater_09.jpg",
+        "theater_10.jpg",
+        "theater_11.jpg",
+        "theater_12.jpg",
+        "theater_13.jpg",
+        "theater_14.jpg",
+        "theater_15.jpg",
+        "theater_16.jpg"
+    ],
+    "icon": "theater_01.jpg"
+}
