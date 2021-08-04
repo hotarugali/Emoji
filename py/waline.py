@@ -8,7 +8,7 @@ IMAGE_SUFFIX = ['.png', '.jpg', 'jpeg', '.gif', '.webp']
 def scanDir(repo, dir, cdn):
     info = {}
     info['name'] = os.path.basename(dir)
-    info['folder'] = os.path.join(cdn, dir.split(repo)[1].strip("/"))
+    info['folder'] = os.path.join(cdn, dir.split(f'/{repo}/')[1].strip("/"))
     info['items'] = []
     for file in sorted(os.listdir(dir)):
         if os.path.splitext(file)[-1].lower() in IMAGE_SUFFIX:

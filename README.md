@@ -168,8 +168,8 @@
             </a>
           </td>
           <td align="center">
-            <a href="preview/Cute-">
-              <img src="image/Cute-" height="200" width="200" />
+            <a href="preview/Cute-Emoji">
+              <img src="image/Cute-Emoji" height="200" width="200" />
             </a>
           </td>
         </tr>

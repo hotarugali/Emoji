@@ -5,7 +5,7 @@ from airium import Airium
 # 扫描单层目录下所有表情包
 def scanDir(repo, dir):
     files = sorted(os.listdir(dir))
-    folder = dir.split(repo)[1].strip("/")
+    folder = dir.split(f'/{repo}/')[1].strip("/")
     cols = 6
     rows = (len(files)-1) // cols + 1
     height = 120
@@ -61,7 +61,7 @@ if __name__=='__main__':
             with open(os.path.join(readmeDir, "README.md"), "w") as f:
                 f.write(readme)
             
-            emojis.append({ 'name': file, 'icon': os.path.join(dir, name[0]), 'href': os.path.join('..', readmeDir.split(repo)[1].strip("/")) })
+            emojis.append({ 'name': file, 'icon': os.path.join(dir, name[0]), 'href': os.path.join('..', readmeDir.split(f'/{repo}/')[1].strip("/")) })
 
     # 对所有表情包生成总览
     readme = summary(repo, emojis)
