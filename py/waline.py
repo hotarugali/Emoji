@@ -2,7 +2,7 @@ import os
 import json
 import argparse
 
-IMAGE_SUFFIX = ['.png', '.jpg', 'jpeg', '.gif', '.webp']
+IMAGE_SUFFIX = ['.png', '.jpg', '.jpeg', '.gif', '.webp']
 
 # 扫描单层目录下所有表情包
 def scanDir(repo, dir, cdn):

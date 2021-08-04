@@ -1,56 +1,56 @@
 <table border="0">
   <tr>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/1.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_1.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/10.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_10.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/11.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_11.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/12.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_12.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/13.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_13.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/14.gif" height="120" width="120" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="../../image/HONKAI3-Star/15.gif" height="120" width="120" />
-    </td>
-    <td align="center">
-      <img src="../../image/HONKAI3-Star/16.gif" height="120" width="120" />
-    </td>
-    <td align="center">
-      <img src="../../image/HONKAI3-Star/2.gif" height="120" width="120" />
-    </td>
-    <td align="center">
-      <img src="../../image/HONKAI3-Star/3.gif" height="120" width="120" />
-    </td>
-    <td align="center">
-      <img src="../../image/HONKAI3-Star/4.gif" height="120" width="120" />
-    </td>
-    <td align="center">
-      <img src="../../image/HONKAI3-Star/5.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_14.gif" height="120" width="120" />
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/6.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_15.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/7.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_16.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/8.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_2.gif" height="120" width="120" />
     </td>
     <td align="center">
-      <img src="../../image/HONKAI3-Star/9.gif" height="120" width="120" />
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_3.gif" height="120" width="120" />
+    </td>
+    <td align="center">
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_4.gif" height="120" width="120" />
+    </td>
+    <td align="center">
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_5.gif" height="120" width="120" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_6.gif" height="120" width="120" />
+    </td>
+    <td align="center">
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_7.gif" height="120" width="120" />
+    </td>
+    <td align="center">
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_8.gif" height="120" width="120" />
+    </td>
+    <td align="center">
+      <img src="../../image/HONKAI3-Star/HONKAI3-Star_9.gif" height="120" width="120" />
     </td>
   </tr>
 </table>

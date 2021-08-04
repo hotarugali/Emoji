@@ -5,7 +5,7 @@ import os
 import shutil
 import argparse
 
-IMAGE_SUFFIX = ['.png', '.jpg', 'jpeg', '.gif', '.webp']
+IMAGE_SUFFIX = ['.png', '.jpg', '.jpeg', '.gif', '.webp']
 
 # 对表情包文件重命名
 def rename(dir, args):
@@ -26,7 +26,7 @@ def rename(dir, args):
 if __name__=='__main__':
     # 读取命令行参数
     parse = argparse.ArgumentParser()
-    parse = parse.add_argument('--serial', '-s', action='store_true', default=False, help='是否对表情包文件进行数字化序列命名。')
+    parse.add_argument('--serial', '-s', action='store_true', default=False, help='是否对表情包文件进行数字化序列命名。')
     group = parse.add_mutually_exclusive_group(required=True)
     group.add_argument('--all', '-a', action='store_true', default=False, help='是否同时处理所有表情包目录。')
     group.add_argument('--dir', '-d', type=str, default=None, help='指定单个表情包目录进行处理。')
