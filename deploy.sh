@@ -14,14 +14,17 @@ function Branch {
     if git checkout --orphan "$_name_"; then
         git rm --cached -rf .
         git clean -f -d
-        
-        git checkout master "$_dir_"
-        git add . && git commit -m "$(date)"
-        git checkout master
-    
+    else
+        git checkout "$_name_"
+    fi
+    git checkout master -- "$_dir_"
+    git checkout master -- "$_commit_/$_name_"
+    git add . && git commit -m "$(date)"
+    git checkout master
 }
 
 _path_=$(dirname $0)
+_commit_="waline"
 pushd "$_path_" > /dev/null
 git add . && git commit -m "$(date)"
 if [ "$#" -lt 1 ] || [ "$#" -gt 3 ]; then

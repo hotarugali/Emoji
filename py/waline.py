@@ -1,5 +1,4 @@
 import os
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import json
 import argparse
 
@@ -29,8 +28,7 @@ if __name__=='__main__':
 
     # 处理表情包
     repo = 'Emoji'
-    path = os.getcwd()
-
+    path = os.path.dirname(os.path.abspath(__file__))
     image = os.path.normpath(os.path.join(path, "../image"))
     waline = os.path.normpath(os.path.join(path, "../waline"))
     emojiCDN = 'https://cdn.jsdelivr.net/gh/hotarugali/'
