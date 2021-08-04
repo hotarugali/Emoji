@@ -14,10 +14,11 @@ function Branch {
     if git checkout --orphan "$_name_"; then
         git rm --cached -rf .
         git clean -f -d
+        
         git checkout master "$_dir_"
         git add . && git commit -m "$(date)"
         git checkout master
-    fi
+    
 }
 
 _path_=$(dirname $0)
