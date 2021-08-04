@@ -1,0 +1,23 @@
+{
+    "name": "Arknights_interesting_news",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@Arknights_interesting_news/image/Arknights_interesting_news",
+    "items": [
+        "interesting_news_01.jpg",
+        "interesting_news_02.jpg",
+        "interesting_news_03.jpg",
+        "interesting_news_04.jpg",
+        "interesting_news_05.jpg",
+        "interesting_news_06.jpg",
+        "interesting_news_07.jpg",
+        "interesting_news_08.jpg",
+        "interesting_news_09.jpg",
+        "interesting_news_10.jpg",
+        "interesting_news_11.jpg",
+        "interesting_news_12.jpg",
+        "interesting_news_13.jpg",
+        "interesting_news_14.jpg",
+        "interesting_news_15.jpg",
+        "interesting_news_16.jpg"
+    ],
+    "icon": "interesting_news_01.jpg"
+}
