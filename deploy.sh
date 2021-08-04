@@ -58,5 +58,4 @@ else
 		esac
 	done
 fi
-git push --all origin
 popd > /dev/null
