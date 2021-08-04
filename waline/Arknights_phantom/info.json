@@ -1,0 +1,23 @@
+{
+    "name": "Arknights_phantom",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@Arknights_phantom/image/Arknights_phantom",
+    "items": [
+        "phantom_01.jpg",
+        "phantom_02.jpg",
+        "phantom_03.jpg",
+        "phantom_04.jpg",
+        "phantom_05.jpg",
+        "phantom_06.jpg",
+        "phantom_07.jpg",
+        "phantom_08.jpg",
+        "phantom_09.jpg",
+        "phantom_10.jpg",
+        "phantom_11.jpg",
+        "phantom_12.jpg",
+        "phantom_13.jpg",
+        "phantom_14.jpg",
+        "phantom_15.jpg",
+        "phantom_16.jpg"
+    ],
+    "icon": "phantom_01.jpg"
+}
