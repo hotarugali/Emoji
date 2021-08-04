@@ -10,16 +10,19 @@ function Usage {
 }
 
 function Branch {
-    git checkout --orphan "$_name_"
-    git rm --cached -rf .
-    git clean -f -d
-    git checkout master "$_dir_"
-    git commit -m "$(date)"
-    git checkout master
+    set -x
+    if git checkout --orphan "$_name_"; then
+        git rm --cached -rf .
+        git clean -f -d
+        git checkout master "$_dir_"
+        git add . && git commit -m "$(date)"
+        git checkout master
+    fi
 }
 
 _path_=$(dirname $0)
 pushd "$_path_" > /dev/null
+git add . && git commit -m "$(date)"
 if [ "$#" -lt 1 ] || [ "$#" -gt 3 ]; then
     echo "Usage Error!"
     Usage
@@ -27,9 +30,11 @@ else
     for (( i=1; i<=$#; ++i )) do
 		case "${!i}" in
 			"-a" | "--all")
-				for i in image/* ; do
-                    _dir_="${!i}"
-                    _name_="$(basename ${!i})"
+				for img in image/* ; do
+                    _dir_="$img"
+                    _name_="$(basename $img)"
+                    echo $_dir_
+                    echo $_name_
                     Branch
                 done
                 break
@@ -53,4 +58,5 @@ else
 		esac
 	done
 fi
+git push --all origin
 popd > /dev/null
