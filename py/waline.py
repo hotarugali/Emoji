@@ -22,7 +22,7 @@ if __name__=='__main__':
     path = os.getcwd()
     image = os.path.normpath(os.path.join(path, "../image"))
     waline = os.path.normpath(os.path.join(path, "../waline"))
-    emojiCDN = 'https://cdn.jsdelivr.net/gh/hotarugali/Emoji@master/'
+    emojiCDN = 'https://hotarugali.github.io/Emoji/'
     for file in os.listdir(image):
         dir = os.path.join(image, file)
         if os.path.isdir(dir):
