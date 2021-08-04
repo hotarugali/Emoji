@@ -1,10 +1,10 @@
 #!/bin/bash
 
-function Exit{
+function Exit {
     exit
 }
 
-function Usage{
+function Usage {
     echo "Usage: $(basename $0) <option>"
     echo 
     echo "至少需要指定以下一个选项："
@@ -15,7 +15,7 @@ function Usage{
 }
 
 
-function Branch{
+function Branch {
     git branch "$_name_"
     git checkout "$_name_"
     git rm --cached -r .
