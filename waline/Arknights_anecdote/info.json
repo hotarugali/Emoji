@@ -1,0 +1,23 @@
+{
+    "name": "Arknights_anecdote",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@Arknights_anecdote/image/Arknights_anecdote",
+    "items": [
+        "anecdote_01.jpg",
+        "anecdote_02.jpg",
+        "anecdote_03.jpg",
+        "anecdote_04.jpg",
+        "anecdote_05.jpg",
+        "anecdote_06.jpg",
+        "anecdote_07.jpg",
+        "anecdote_08.jpg",
+        "anecdote_09.jpg",
+        "anecdote_10.jpg",
+        "anecdote_11.jpg",
+        "anecdote_12.jpg",
+        "anecdote_13.jpg",
+        "anecdote_14.jpg",
+        "anecdote_15.jpg",
+        "anecdote_16.jpg"
+    ],
+    "icon": "anecdote_01.jpg"
+}
