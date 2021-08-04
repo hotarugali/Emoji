@@ -10,7 +10,7 @@ function Usage {
 }
 
 function Branch {
-    set -x
+    # set -x
     if git checkout --orphan "$_name_"; then
         git rm --cached -rf .
         git clean -f -d
@@ -37,8 +37,6 @@ else
 				for img in image/* ; do
                     _dir_="$img"
                     _name_="$(basename $img)"
-                    echo $_dir_
-                    echo $_name_
                     Branch
                 done
                 break
