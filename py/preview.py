@@ -34,12 +34,12 @@ def summary(repo, emojis):
                     for col in range(cols):
                         index = row*cols + col
                         if index < len(emojis):
-                            readme.td(align='center').img(src=os.path.join("..", emojis[index]['icon'].split(repo)[1].strip("/")), height=f"{height}", width=f"{width}")
+                            readme.td(align='center').a(href=emojis[index]['href']).img(src=os.path.join("..", emojis[index]['icon'].split(repo)[1].strip("/")), height=f"{height}", width=f"{width}")
                 with readme.tr():
                     for col in range(cols):
                         index = row*cols + col
                         if index < len(emojis):
-                            readme.td().p(align="center", style=f"width: {width}px;").b(_t=emojis[index]['name'])
+                            readme.td(align='center').a(href=emojis[index]['href']).p(style=f"width: {width}px;").b(_t=emojis[index]['name'])
     return str(readme)+"\n"
 
 
@@ -48,6 +48,8 @@ if __name__=='__main__':
     path = os.getcwd()
     image = os.path.normpath(os.path.join(path, "../image"))
     preview = os.path.normpath(os.path.join(path, "../preview"))
+    # repoURL = 'https://github.com/hotarugali/Emoji/tree/master/'
+    # emojiCDN = 'https://cdn.jsdelivr.net/gh/hotarugali/Emoji@master/'
     emojis = []
     # 对每类表情包生成对应的预览
     for file in os.listdir(image):
@@ -59,7 +61,7 @@ if __name__=='__main__':
             with open(os.path.join(readmeDir, "README.md"), "w") as f:
                 f.write(readme)
             
-            emojis.append({ 'name': file, 'icon': os.path.join(dir, name[0]) })
+            emojis.append({ 'name': file, 'icon': os.path.join(dir, name[0]), 'href': os.path.join('..', readmeDir.split(repo)[1].strip("/")) })
 
     # 对所有表情包生成总览
     readme = summary(repo, emojis)
