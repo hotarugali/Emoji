@@ -1,4 +1,5 @@
 # Emoji
+![hotarugali's visitors](https://count.getloli.com/get/@hotarugali@Emoji&theme=moebooru)
 
 ### 表情说明
 本仓库中包含的表情目前均来自 [Twikoo-magic](https://github.com/2X-ercha/Twikoo-Magic)，如果后续有其他有意思的表情也会考虑加入。
@@ -14,7 +15,6 @@
 | 阿狸 | [https://cdn.jsdelivr.net/gh/hotarugali/Emoji@ali/waline/ali](https://cdn.jsdelivr.net/gh/hotarugali/Emoji@ali/waline/ali) |
 
 对于 Waline 评论配置表情包细节，参考 [Waline 自定义表情包](https://waline.js.org/guide/client/emoji.html) 文档。
-
 
 ### 表情分类
 <table border="1.5">
@@ -985,3 +985,12 @@
     </td>
   </tr>
 </table>
+
+<!-- ### 新增表情包
+在 `image` 中创建一个目录，比如为 `myemoji`，然后将要想新增的表情包放入其中。然后在根目录下运行以下代码：
+```bash
+python py/waline.py -d image/myemoji
+./deploy.sh -d image/myemoji
+```
+
+然后 `commit` 并 `push` 仓库即可。 -->
