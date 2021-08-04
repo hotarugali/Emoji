@@ -1,6 +1,6 @@
 {
     "name": "Heybox",
-    "folder": "https://hotarugali.github.io/Emoji/image/Heybox",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@Heybox/image/Heybox",
     "items": [
         "expression_cube.png",
         "expression_cube_bingbujiandan.png",

@@ -1,6 +1,6 @@
 {
     "name": "Tieba-New",
-    "folder": "https://hotarugali.github.io/Emoji/image/Tieba-New",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@Tieba-New/image/Tieba-New",
     "items": [
         "image_emoticon.png",
         "image_emoticon10.png",

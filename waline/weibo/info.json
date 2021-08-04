@@ -1,6 +1,6 @@
 {
     "name": "weibo",
-    "folder": "https://hotarugali.github.io/Emoji/image/weibo",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@weibo/image/weibo",
     "items": [
         "d_aoteman.png",
         "d_baibai.png",

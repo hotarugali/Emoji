@@ -27,7 +27,6 @@ if __name__=='__main__':
     group.add_argument('--dir', '-d', type=str, default=None, help='指定单个表情包目录进行处理。')
     args = parse.parse_args()
 
-    
     # 处理表情包
     repo = 'Emoji'
     path = os.getcwd()

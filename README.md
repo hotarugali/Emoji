@@ -7,11 +7,14 @@
 本仓库表情目前主要适配 [Waline](https://github.com/walinejs/waline)，虽然 Waline 可以使用 Valine 的 [Valine-magic](https://github.com/GamerNoTitle/Valine-Magic) 表情库，但该仓库中的表情包相较于 [Twikoo-magic](https://github.com/2X-ercha/Twikoo-Magic) 还是少了很多，因此本人将 [Twikoo-magic](https://github.com/2X-ercha/Twikoo-Magic) 表情库迁移到 Waline 评论。
 
 ### 食用方法
-参考 [Waline 自定义表情包](https://waline.js.org/guide/client/emoji.html) 文档。
+由于 jsdelivr 对包大小的 50MB 限制，本仓库对于每个类别的表情包都单独创建了一个分支。以「阿狸」表情包为例，其 CDN 链接为：
 
-| 服务器 | CDN 链接 |
+| 表情包 | CDN 链接 |
 | :- | :- |
-| Github ![] | [https://cdn.jsdelivr.net/gh/hotarugali/Emoji@master/](https://cdn.jsdelivr.net/gh/hotarugali/Emoji@master/) |
+| 阿狸 | [https://cdn.jsdelivr.net/gh/hotarugali/Emoji@ali/waline/ali](https://cdn.jsdelivr.net/gh/hotarugali/Emoji@ali/waline/ali) |
+
+对于 Waline 评论配置表情包细节，参考 [Waline 自定义表情包](https://waline.js.org/guide/client/emoji.html) 文档。
+
 
 ### 表情分类
 <table border="1.5">
