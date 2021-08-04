@@ -34,7 +34,7 @@ def summary(repo, emojis):
                     for col in range(cols):
                         index = row*cols + col
                         if index < len(emojis):
-                            readme.td(align='center').a(href=emojis[index]['href']).img(src=os.path.join("..", emojis[index]['icon'].split(repo)[1].strip("/")), height=f"{height}", width=f"{width}")
+                            readme.td(align='center').a(href=emojis[index]['href']).img(src=os.path.join("..", emojis[index]['icon'].split(f'/{repo}/')[1].strip("/")), height=f"{height}", width=f"{width}")
                 with readme.tr():
                     for col in range(cols):
                         index = row*cols + col

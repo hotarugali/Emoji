@@ -169,7 +169,7 @@
           </td>
           <td align="center">
             <a href="preview/Cute-Emoji">
-              <img src="image/Cute-" height="200" width="200" />
+              <img src="image/Cute-Emoji/001.png" height="200" width="200" />
             </a>
           </td>
         </tr>
