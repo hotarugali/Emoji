@@ -1,13 +1,13 @@
 # Emoji
 ![hotarugali's visitors](https://count.getloli.com/get/@hotarugali@Emoji&theme=moebooru)
 
-### 表情说明
+## 表情说明
 本仓库中包含的表情目前均来自 [Twikoo-magic](https://github.com/2X-ercha/Twikoo-Magic)，如果后续有其他有意思的表情也会考虑加入。
 
-### 评论适配
+## 评论适配
 本仓库表情目前主要适配 [Waline](https://github.com/walinejs/waline)，虽然 Waline 可以使用 Valine 的 [Valine-magic](https://github.com/GamerNoTitle/Valine-Magic) 表情库，但该仓库中的表情包相较于 [Twikoo-magic](https://github.com/2X-ercha/Twikoo-Magic) 还是少了很多，因此本人将 [Twikoo-magic](https://github.com/2X-ercha/Twikoo-Magic) 表情库迁移到 Waline 评论。
 
-### 食用方法
+## 食用方法
 由于 jsdelivr 对包大小的 50MB 限制，本仓库对于每个类别的表情包都单独创建了一个分支。以「阿狸」表情包为例，其 CDN 链接为：
 
 | 表情包 | CDN 链接 |
@@ -16,7 +16,7 @@
 
 对于 Waline 评论配置表情包细节，参考 [Waline 自定义表情包](https://waline.js.org/guide/client/emoji.html) 文档。
 
-### 表情分类
+## 表情分类
 <table border="1.5">
   <tr>
     <td>
@@ -986,7 +986,7 @@
   </tr>
 </table>
 
-<!-- ### 新增表情包
+<!-- ## 新增表情包
 在 `image` 中创建一个目录，比如为 `myemoji`，然后将要想新增的表情包放入其中。然后在根目录下运行以下代码：
 ```bash
 python py/waline.py -d image/myemoji
