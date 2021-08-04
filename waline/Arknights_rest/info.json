@@ -1,0 +1,23 @@
+{
+    "name": "Arknights_rest",
+    "folder": "https://cdn.jsdelivr.net/gh/hotarugali/Emoji@Arknights_rest/image/Arknights_rest",
+    "items": [
+        "rest_01.jpg",
+        "rest_02.jpg",
+        "rest_03.jpg",
+        "rest_04.jpg",
+        "rest_05.jpg",
+        "rest_06.jpg",
+        "rest_07.jpg",
+        "rest_08.jpg",
+        "rest_09.jpg",
+        "rest_10.jpg",
+        "rest_11.jpg",
+        "rest_12.jpg",
+        "rest_13.jpg",
+        "rest_14.jpg",
+        "rest_15.jpg",
+        "rest_16.jpg"
+    ],
+    "icon": "rest_01.jpg"
+}
