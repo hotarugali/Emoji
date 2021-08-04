@@ -17,11 +17,12 @@ function Usage {
 
 function Branch {
     git branch "$_name_"
-    git checkout "$_name_"
+    git checkout --orphan "$_name_"
     git rm --cached -r .
     git clean -f -d
+    git checkout master "$_dir_"
+    git commit -m "$(date)"
     git checkout master
-    git checkout "$_name_" "$_dir_"
 }
 
 
@@ -33,8 +34,8 @@ else
 		case "${!i}" in
 			"-a" | "--all")
 				for i in image/* ; do
-                    _dir_="$i"
-                    _name_="$(basename $i)"
+                    _dir_="${!i}"
+                    _name_="$(basename ${!i})"
                     Branch
                 done
                 Exit
@@ -42,7 +43,7 @@ else
 			"-d" | "--dir")
 				((++i))
 				_dir_="${!i}"
-                _name_="$(basename $i)"
+                _name_="$(basename ${!i})"
                 Branch
                 Exit
 				;;
