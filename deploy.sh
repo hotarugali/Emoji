@@ -14,8 +14,11 @@ function Branch {
     if git checkout --orphan "$_name_"; then
         git rm --cached -rf .
         git clean -f -d
+    elif git checkout "$_name_"; then
+        git rm --cached -rf .
+        git clean -f -d
     else
-        git checkout "$_name_"
+        return
     fi
     git checkout master -- "$_dir_"
     git checkout master -- "$_commit_/$_name_"
